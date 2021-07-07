@@ -56,7 +56,6 @@ header {
 .search-box {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 
     height: 45vh;
@@ -68,9 +67,9 @@ header {
 }
 
 .search-box input {
-    padding: 1rem;
-    border: 4px solid var(--dark-blue);
+    padding: 0.8rem;
     text-align: center;
+    opacity: 50%;
 
     z-index: 1;
 }
@@ -83,7 +82,10 @@ header {
 
     text-transform: uppercase;
     font-size: 1.5rem;
-    border: 4px solid whitesmoke;
+    border-radius: 4px;
+    opacity: 75%;
+
+    font-family: 'Poppins', sans-serif;
 
     z-index: 1;
 }
