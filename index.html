@@ -14,10 +14,10 @@
             <div class="logo-background-background"></div>
         </header>
         <section class="search">
-            <form class="search-box" action="pesquisar.html">
+            <form class="search-box" action="pesquisar.php" method="GET">
                 <input
                     type="text"
-                    name="search"
+                    name="q"
                     size="120"
                     placeholder="Pesquise sua dúvida"
                 />
@@ -29,7 +29,7 @@
 
     <script src="js/particles.js"></script>
     <script>
-        particlesJS.load('particles-js', '/js/particles.json', () => {
+        particlesJS.load('particles-js', 'js/particles.json', () => {
             console.log('particles loaded')
         })
     </script>
