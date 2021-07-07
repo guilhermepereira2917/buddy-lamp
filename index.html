@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" href="img/icon.png" />
+        <title>Buddy Lamp</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/lampinha.png" class="logo" />
+            <div class="logo-background"></div>
+            <div class="logo-background-background"></div>
+        </header>
+        <section class="search">
+            <form class="search-box" action="pesquisar.html">
+                <input
+                    type="text"
+                    name="search"
+                    size="120"
+                    placeholder="Pesquise sua dúvida"
+                />
+                <button type="submit" name="search-button">Responder!</button>
+            </form>
+        </section>
+        <div id="particles-js"></div>
+    </body>
+
+    <script src="js/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/js/particles.json', () => {
+            console.log('particles loaded')
+        })
+    </script>
+</html>
