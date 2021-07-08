@@ -29,6 +29,7 @@ header {
 }
 
 .logo {
+    width: 100px;
     position: absolute;
     z-index: 2;
 }
